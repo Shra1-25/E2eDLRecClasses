@@ -1,4 +1,5 @@
 <lcgdict>
+  <class pattern="edm::Wrapper<*>"/>
   <class name="framePredCollection"/>
   <class name="std::vector<framePredCollection>"/>
   <class name="edm::SortedCollection<framePredCollection,edm::StrictWeakOrdering<framePredCollection> >"/>
