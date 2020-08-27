@@ -3,6 +3,7 @@
 # include <iostream>
 # include <vector>
 # include <cmath>
+#include "DataFormats/Common/interface/SortedCollection.h"
 using namespace std;
 class framePredCollection {
   
