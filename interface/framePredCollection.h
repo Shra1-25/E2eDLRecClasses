@@ -15,7 +15,7 @@ class framePredCollection {
   public:
   typedef std::vector<std::vector<float>> key_type;
   //framePredCollection();
-  
+  ~framePredCollection();
   
   std::vector<std::vector<float>> id() const {return id_;}
   
