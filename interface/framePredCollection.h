@@ -40,7 +40,7 @@ class framePredCollection {
     IetaSeed = Ieta_seed;
   }
   
-  void putIphiSeed ( Iphi_seed){
+  void putIphiSeed ( float Iphi_seed){
     IphiSeed = Iphi_seed;
   }
   
