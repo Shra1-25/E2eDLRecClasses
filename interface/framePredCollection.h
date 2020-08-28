@@ -28,11 +28,11 @@ class framePredCollection {
     frameCollection=frame;
   }
   
-  std::vector<std::vector<float>> getPredCollection(){
+  std::vector<float> getPredCollection(){
     return predCollection;
   }
   
-  void pushPredCollection(std::vector<float> prediction){
+  void putPredCollection(std::vector<float> prediction){
     predCollection=prediction;
   }
   
