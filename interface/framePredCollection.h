@@ -9,8 +9,8 @@ class framePredCollection {
   
   std::vector<std::vector<float>> frameCollection;
   std::vector<float> predCollection;
-  float photonIetaSeeds;
-  float photonIphiSeeds;
+  float photonIetaSeed;
+  float photonIphiSeed;
   std::vector<std::vector<float>> id_;
   
   public:
@@ -24,8 +24,8 @@ class framePredCollection {
     return frameCollection;
   }
   
-  void pushFrameCollection(std::vector<float> frame){
-    frameCollection.push_back(frame);
+  void putFrameCollection(std::vector<std::vector<float>> frame){
+    frameCollection=frame;
   }
   
   std::vector<std::vector<float>> getPredCollection(){
@@ -33,23 +33,23 @@ class framePredCollection {
   }
   
   void pushPredCollection(std::vector<float> prediction){
-    predCollection.push_back(prediction);
+    predCollection=prediction;
   }
   
-  void putIetaSeed (std::vector<float> vIeta_seed){
-    photonIetaSeeds = vIeta_seed;
+  void putIetaSeed (float Ieta_seed){
+    photonIetaSeed = Ieta_seed;
   }
   
-  void putIphiSeed (std::vector<float> vIphi_seed){
-    photonIphiSeeds = vIphi_seed;
+  void putIphiSeed ( Iphi_seed){
+    photonIphiSeed = Iphi_seed;
   }
   
-  std::vector<float> getIetaSeeds (){
-    return photonIetaSeeds;
+  float getIetaSeed (){
+    return photonIetaSeed;
   }
   
-  std::vector<float> getIphiSeeds (){
-    return photonIphiSeeds;
+  float getIphiSeed (){
+    return photonIphiSeed;
   }
 };
 //typedef edm::SortedCollection<framePredCollection,edm::StrictWeakOrdering<framePredCollection>> framePredSeedCollection;
