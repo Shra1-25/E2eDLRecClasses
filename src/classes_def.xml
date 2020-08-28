@@ -1,6 +1,6 @@
 <lcgdict>
   <class name="framePredCollection" ClassVersion="12">
-    <version ClassVersion="12" checksum="3201792035"/>
+    <version ClassVersion="13" checksum="1782207246"/>
   </class>
   <class name="std::vector<framePredCollection>"/>
   <class name="edm::SortedCollection<framePredCollection,edm::StrictWeakOrdering<framePredCollection> >"/>
