@@ -9,8 +9,8 @@ class framePredCollection {
   
   std::vector<std::vector<float>> frameCollection;
   std::vector<float> predCollection;
-  float photonIetaSeed;
-  float photonIphiSeed;
+  float IetaSeed;
+  float IphiSeed;
   std::vector<std::vector<float>> id_;
   
   public:
@@ -37,19 +37,19 @@ class framePredCollection {
   }
   
   void putIetaSeed (float Ieta_seed){
-    photonIetaSeed = Ieta_seed;
+    IetaSeed = Ieta_seed;
   }
   
   void putIphiSeed ( Iphi_seed){
-    photonIphiSeed = Iphi_seed;
+    IphiSeed = Iphi_seed;
   }
   
   float getIetaSeed (){
-    return photonIetaSeed;
+    return IetaSeed;
   }
   
   float getIphiSeed (){
-    return photonIphiSeed;
+    return IphiSeed;
   }
 };
 //typedef edm::SortedCollection<framePredCollection,edm::StrictWeakOrdering<framePredCollection>> framePredSeedCollection;
