@@ -52,5 +52,6 @@ class framePredCollection {
     return photonIphiSeeds;
   }
 };
-typedef edm::SortedCollection<framePredCollection,edm::StrictWeakOrdering<framePredCollection>> framePredSeedCollection;
+//typedef edm::SortedCollection<framePredCollection,edm::StrictWeakOrdering<framePredCollection>> framePredSeedCollection;
+typedef edm::SortedCollection<framePredCollection> framePredSeedCollection;
 #endif
