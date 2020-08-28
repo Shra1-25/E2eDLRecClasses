@@ -8,9 +8,9 @@ using namespace std;
 class framePredCollection {
   
   std::vector<std::vector<float>> frameCollection;
-  std::vector<std::vector<float>> predCollection;
-  std::vector<float> photonIetaSeeds;
-  std::vector<float> photonIphiSeeds;
+  std::vector<float> predCollection;
+  float photonIetaSeeds;
+  float photonIphiSeeds;
   std::vector<std::vector<float>> id_;
   
   public:
