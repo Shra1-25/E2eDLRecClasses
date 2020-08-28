@@ -3,6 +3,6 @@
 framePredCollection::~framePredCollection(){
     frameCollection.clear();
     predCollection.clear();
-    //photonIetaSeeds.clear();
-    //photonIphiSeeds.clear();
+    IetaSeed=0;
+    IphiSeed=0;
   }
