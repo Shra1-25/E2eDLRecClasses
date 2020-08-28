@@ -1,5 +1,4 @@
 <lcgdict>
-  <class pattern="edm::Wrapper<*>"/>
   <class name="framePredCollection" ClassVersion="12">
     <version ClassVersion="12" checksum="3201792035"/>
   </class>
